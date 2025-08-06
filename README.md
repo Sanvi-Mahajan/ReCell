@@ -1,18 +1,77 @@
-*ReCell*
+# ReCell 📱
 
-this mini project provides a user friendly application where people can buy and sell old mobile ( second hand mobiles ).
-In today's digital era, buying and selling used mobile phones online has become a popular trend due to affordability and convenience. The "ReCell" aims to simplify this process by 
-providing a user-friendly platform that connects buyers and sellers of used smartphones. 
-This web-based application allows users to register, browse available phones by category or search query, and view detailed item descriptions including price, condition, age, 
-location, and seller information. Sellers can upload product details, manage their listings, and interact with potential buyers directly through a messaging system.
-The project focuses on building an efficient and normalized relational database to handle user profiles, product listings, categories, messages, and transaction history. It 
-implements core database concepts such as ER modelling, relational schema, 
-primary/foreign keys, constraints, and SQL queries. To keep things simple, the payment system supports a simulated Cash On Delivery (COD) option and real-time payment (UPI). 
-The main goal of this project is to develop a well-structured DBMS-driven application that is intuitive, scalable, and ideal for academic use and small-scale business simulation.
-( the transaction processesing has not been implemented correctly ).
+**ReCell** is a web-based application designed to simplify the process of buying and selling second-hand smartphones. It simulates a small-scale business platform where users can list, browse, and interact over pre-owned mobile devices. Built as a DBMS mini-project, ReCell showcases full-stack integration with a strong focus on database design and functionality.
 
-languages used:
--> PHP for Backend
--> HTML, CSS and JavaScript for Frontend
--> MySQL for DataBase
--> used XAMPP server
+---
+
+## 🚀 Features
+
+- 🔐 **User Registration & Login** – Secure authentication for both buyers and sellers
+- 📦 **Product Listings** – Sellers can upload mobile details including:
+  - Brand, model, condition, price, age, and images
+- 🔍 **Search & Filters** – Buyers can browse phones by brand, price range, or condition
+- 💬 **In-app Messaging** – Users can chat to negotiate or inquire directly (simulated)
+- 💰 **Payment Options** – Supports simulated Cash on Delivery (COD) and UPI (not fully implemented)
+- 📊 **Transaction History** – Records user transactions (planned)
+- 🗃️ **Well-Structured Database** – Normalized schema with ER diagrams, foreign keys, constraints
+
+---
+
+## 🧱 Tech Stack
+
+| Layer       | Technology                     |
+|-------------|--------------------------------|
+| Frontend    | HTML, CSS, JavaScript          |
+| Backend     | PHP                            |
+| Database    | MySQL                          |
+| Server      | XAMPP (Apache + MySQL + PHP)   |
+
+---
+
+## 🧠 Database Design
+
+- Designed using **Entity Relationship Modeling (ER)**  
+- Used concepts like:
+  - Primary & Foreign Keys
+  - Normalization (up to 3NF)
+  - SQL Joins, Queries, and Triggers
+- Entities:
+  - Users
+  - Products
+  - Messages
+  - Transactions
+  - Categories
+
+---
+
+## 🧪 What Could Be Improved
+
+- 💸 **Payment Simulation** is not fully functional — currently placeholder logic
+- 🔔 **Real-time notifications & messaging** could be added
+- 🛡️ **Input validation & security** could be tightened
+
+---
+
+## 📁 How to Run Locally
+
+1. Install [XAMPP](https://www.apachefriends.org/)
+2. Clone this repository
+3. Move the project folder to `htdocs/` directory inside XAMPP
+4. Import the `.sql` file into **phpMyAdmin**
+5. Start Apache and MySQL via XAMPP control panel
+6. Visit `localhost/ReCell` in your browser
+
+---
+
+## 🤝 Team & Contribution
+
+This project was built collaboratively as part of our DBMS course.
+
+**My Contributions:**
+- My role here: database schema design, messaging module, UI work
+
+---
+
+## 📝 License
+
+This project is for academic use only.
